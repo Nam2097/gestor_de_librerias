@@ -1,0 +1,22 @@
+{
+  "name": "gestor_de_librerias",
+  "version": "1.0.0",
+  "description": "Gestor de librerias en WEB",
+  "main": "index.js",
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nam2097/gestor_de_librerias.git"
+  },
+  "keywords": [
+    "Libreria",
+    "personal",
+    "Prueba"
+  ],
+  "author": "Andres Gonzalez <andgonzalezcas@unal.edu.co> Sebastian Parra <jparraav@unal.edu.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nam2097/gestor_de_librerias/issues"
+  },
+  "homepage": "https://github.com/Nam2097/gestor_de_librerias#readme"
+}
