@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="Es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main ❤</title>
+    <link rel="stylesheet" href="./src/styles/main_page/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Main Page</title>
 </head>
 <body>
-    
+    <main class="main">
+        <h1>Tu Libreria</h1>
+        <form action=""/>
+            <label for="login_username">
+                <span>¿¡Hola!, cual es tu nombre?</span>
+                <input type="text" name="login_username" id="login_username"/>
+            </label>
+            <input type="submit"/>
+        </form>
+        <section class="table_container">
+            <button class="table_container__button--json" id="load_json_button">Json</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Libro</th>
+                        <th>Escritor</th>
+                        <th>¿Leido?</th>
+                    </tr>
+                </thead>
+                <tbody id="table__contents"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./src/js/main_page.js"></script>
 </body>
 </html>
