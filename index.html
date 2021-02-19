@@ -11,7 +11,8 @@
     <title>Ingreso de usuario</title>
 </head>
 <body>
-    <main class="background_modal_section">
+    <!-- MODAL SECCTION -->
+    <section class="background_modal_section">
         <div class="modal_contents">
             <figure>
                 <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
@@ -25,6 +26,23 @@
             </div>
             <p class="modal_warning" id="modal_warning"></p>
         </div>
+    </section>
+    <!-- MAIN CONTENT -->
+    <main class="main">
+        <h1>Tu librería</h1>
+        <section class="table_container">
+            <button class="table_container__button--json" id="load_json_button">Json</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>¿Ya lo leíste?</th>
+                    </tr>
+                </thead>
+                <tbody id="table__contents"></tbody>
+            </table>
+        </section>
     </main>
     <script src="./src/js/index.js"></script>
 </body>
