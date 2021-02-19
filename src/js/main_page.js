@@ -1,6 +1,3 @@
-/* GLOBAL VARIABLES */
-let username = ''
-
 /* LOAD JSON DOCUMENT */
 document.querySelector('#load_json_button').addEventListener('click', trearDatos)
 
@@ -27,13 +24,3 @@ function trearDatos(){
         }
     }
 }
-
-/* MODAL ACTIONS */
-document.getElementById('modal_button').addEventListener("click", function() {
-    username = document.getElementById('username')
-    if (username.value != ''){
-        document.querySelector('.background_modal_section').style.display = "none";
-    } else {
-        document.getElementById('modal_warning').innerHTML = 'Por favor, dime como quieres que te llamemos'
-    }
-});

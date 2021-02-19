@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/main_page/style.css">
-    <link rel="stylesheet" href="./src/styles/main_page/style_600px.css" media="screen and (min-width: 600px)">
-    <link rel="stylesheet" href="./src/styles/main_page/style_900px.css" media="screen and (min-width: 900px)">
-    <title>Página principal</title>
+    <link rel="stylesheet" href="./src/styles/index/style.css">
+    <link rel="stylesheet" href="./src/styles/index/style_600px.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./src/styles/index/style_900px.css" media="screen and (min-width: 900px)">
+    <title>Ingreso de usuario</title>
 </head>
 <body>
-    <!-- MODAL SECCTION -->
-    <section class="background_modal_section">
+    <main class="background_modal_section">
         <div class="modal_contents">
             <figure>
                 <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
@@ -26,42 +25,7 @@
             </div>
             <p class="modal_warning" id="modal_warning"></p>
         </div>
-    </section>
-    <!-- MAIN CONTENT -->
-    <main class="main">
-        <h1>Tu librería</h1>
-        <section class="table_container">
-            <button class="table_container__button--json" id="load_json_button">Json</button>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Titulo</th>
-                        <th>Autor</th>
-                        <th>¿Ya lo leíste?</th>
-                    </tr>
-                </thead>
-                <tbody id="table__contents"></tbody>
-            </table>
-        </section>
     </main>
-<<<<<<< HEAD
-=======
-    <section class="background_modal_section">
-        <div class="modal_contents">
-            <figure>
-                <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
-            </figure>
-            <div class="modal_contents__form">
-                <label for="username">
-                    <h3>!Hola!, ¿Cómo quieres que te llamemos?</h3>
-                    <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario" required value=""/>
-                    <button id="modal_button">INGRESAR</button>
-                </label>
-            </div>
-            <p class="modal_warning" id="modal_warning"></p>
-        </div>
-    </section>
->>>>>>> 188c3eb43642cb61e6a39bd4e92778084937b38a
-    <script src="./src/js/main_page.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
