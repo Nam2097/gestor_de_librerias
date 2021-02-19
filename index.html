@@ -9,6 +9,23 @@
     <title>Página principal</title>
 </head>
 <body>
+    <!-- MODAL SECCTION -->
+    <section class="background_modal_section">
+        <div class="modal_contents">
+            <figure>
+                <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
+            </figure>
+            <div class="modal_contents__form">
+                <label for="username">
+                    <h3>¿!Hola!, como quieres que te llamemos?</h3>
+                    <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario:" required value=""/>
+                    <button id="modal_button">INGRESAR</button>
+                </label>
+            </div>
+            <p class="modal_warning" id="modal_warning"></p>
+        </div>
+    </section>
+    <!-- MAIN CONTENT -->
     <main class="main">
         <h1>Tu librería</h1>
         <section class="table_container">
@@ -25,21 +42,6 @@
             </table>
         </section>
     </main>
-    <section class="background_modal_section">
-        <div class="modal_contents">
-            <figure>
-                <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
-            </figure>
-            <div class="modal_contents__form">
-                <label for="username">
-                    <h3>¿!Hola!, como quieres que te llamemos?</h3>
-                    <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario aquí:" required value=""/>
-                    <button id="modal_button">INGRESAR</button>
-                </label>
-            </div>
-            <p class="modal_warning" id="modal_warning"></p>
-        </div>
-    </section>
     <script src="./src/js/main_page.js"></script>
 </body>
 </html>

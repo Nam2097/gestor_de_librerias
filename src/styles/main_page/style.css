@@ -66,9 +66,9 @@ html{
     outline: none;
 }
 .modal_contents button{
-    font-family: 'Roboto Mono', monospace;
     width: 40%;
     padding: 5px;
+    font-family: 'Roboto Mono', monospace;
     border: 2px solid var(--black-warm);
     border-radius: 8px;
     background-color: var(--main-orange);
