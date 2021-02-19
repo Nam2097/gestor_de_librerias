@@ -11,10 +11,9 @@
   "keywords": [
     "Libreria",
     "personal",
-    "Prueba"
+    "JSON"
   ],
   "author": "Andres Gonzalez <andgonzalezcas@unal.edu.co> Sebastian Parra <jparraav@unal.edu.co>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nam2097/gestor_de_librerias/issues"
   },

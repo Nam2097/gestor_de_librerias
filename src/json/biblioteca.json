@@ -1,12 +1,32 @@
 [
     {
         "Libro": "IDK",
-        "Escritor": "Another IDK",
+        "Autor": "Another IDK",
         "Leido": false
     },
     {
         "Libro": "IDK2",
-        "Escritor": "Another IDK2",
+        "Autor": "Another IDK2",
+        "Leido": true
+    },
+    {
+        "Libro": "IDK3",
+        "Autor": "Another IDK3",
+        "Leido": false
+    },
+    {
+        "Libro": "IDK4",
+        "Autor": "Another IDK4",
+        "Leido": true
+    },
+    {
+        "Libro": "IDK5",
+        "Autor": "Another IDK5",
+        "Leido": false
+    },
+    {
+        "Libro": "🎈 IDK6",
+        "Autor": "Another IDK6",
         "Leido": true
     }
 ]
