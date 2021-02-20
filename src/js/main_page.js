@@ -4,7 +4,7 @@ document.querySelector('#load_json_button').addEventListener('click', trearDatos
 function trearDatos(){
     const xhttp = new XMLHttpRequest()
     
-    xhttp.open('GET', './src/json/biblioteca.json', true)
+    xhttp.open('GET', '../src/json/biblioteca.json', true)
     xhttp.send()
     xhttp.onreadystatechange = function () {
         if(this.readyState == 4 && this.status == 200){
