@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/index/style.css">
-    <link rel="stylesheet" href="./src/styles/index/style_600px.css" media="screen and (min-width: 600px)">
-    <link rel="stylesheet" href="./src/styles/index/style_900px.css" media="screen and (min-width: 900px)">
+    <link rel="stylesheet" href="./src/styles/main_page/style.css">
+    <link rel="stylesheet" href="./src/styles/main_page/style_600px.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./src/styles/main_page/style_900px.css" media="screen and (min-width: 900px)">
     <title>Ingreso de usuario</title>
 </head>
 <body>
     <!-- MODAL SECCTION -->
-    <section class="background_modal_section">
-        <div class="modal_contents">
+    <section class="background_username_modal">
+        <div class="username_modal_contents">
             <figure>
                 <img src="https://img.icons8.com/wired/2x/4a90e2/book-reading.png" alt="Logo de usuario">
             </figure>
-            <div class="modal_contents__form">
+            <div class="username_modal_contents__form">
                 <label for="username">
                     <h3>¿!Hola!, como quieres que te llamemos?</h3>
                     <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario:" required value=""/>
                     <button id="modal_button">INGRESAR</button>
                 </label>
             </div>
-            <p class="modal_warning" id="modal_warning"></p>
+            <p class="username_modal__warning" id="modal_warning"></p>
         </div>
     </section>
     <!-- MAIN CONTENT -->
@@ -44,6 +44,7 @@
             </table>
         </section>
     </main>
-    <script src="./src/js/index.js"></script>
+    <script src="./src/js/username_modal.js"></script>
+    <script src="./src/js/json_management.js"></script>
 </body>
 </html>

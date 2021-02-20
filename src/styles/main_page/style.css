@@ -16,7 +16,7 @@ html{
 }
 
 /* MODAL SECTION */
-.background_modal_section{
+.background_username_modal{
     width: 100%;
     height: 100%;
     background: var(--main-orange);
@@ -26,7 +26,7 @@ html{
     justify-content: center;
     align-items: center;
 }
-.modal_contents{
+.username_modal_contents{
     width: 90vw;
     height: 80vh;
     background-color: var(--white-warm);
@@ -35,7 +35,7 @@ html{
     text-align: center;
     font-size: 1.6rem;
 }
-.modal_contents figure{
+.username_modal_contents figure{
     width: 100%;
     height: 40%;
     position: relative;
@@ -43,17 +43,17 @@ html{
     justify-content: center;
     align-items: center;
 }
-.modal_contents .modal_contents__form{
+.username_modal_contents__form{
     width: 100%;
     height: 45%;
     display: flex;
     justify-content: center;
     color: var(--main-blue);
 }
-.modal_contents__form h3{
+.username_modal_contents__form h3{
     margin-bottom: 30px;
 }
-.modal_contents__form input{
+.username_modal_contents__form input{
     width: 90%;
     padding: 5px;
     display: block;
@@ -66,7 +66,7 @@ html{
     text-align: center;
     outline: none;
 }
-.modal_contents button{
+.username_modal_contents__form button{
     width: 40%;
     padding: 5px;
     font-family: 'Roboto Mono', monospace;
@@ -76,7 +76,7 @@ html{
     cursor: pointer;
     outline: none;
 }
-.modal_warning{
+.username_modal__warning{
     width: 90vw;
     bottom: 13vh;
     position: absolute;
