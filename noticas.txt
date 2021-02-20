@@ -4,3 +4,4 @@ Pagina del blog:
 
 pa' charlas sobre cualquier aspecto relacionado con el proyecto de manera no profesional:
 
+video super importante para simular base de datos con json nativo :https://www.youtube.com/watch?v=YiBDvtEP88M&ab_channel=FaztCode, esto se guarda ya que aun no se como usar bien los modulos
